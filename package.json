@@ -1,0 +1,17 @@
+{
+  "name": "testing-node-with-mocha",
+  "version": "1.0.0",
+  "description": "testing with mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"./test/**/*.spec.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.2"
+  }
+}
